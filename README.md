@@ -1,2 +1,5 @@
-# Financial_Contagion_Network
-"Financial Contagion in a Multi-layer Network", IMF Working paper
+# Financial Contagion in a Multilayer Network
+This is the code repository for the IMF working paper "Financial Contagion in a Multilayer Network", by Yevgeniya Korniyenko, Manasa Patnam, Rita Maria Del Rio-Chanona, and Mason A. Porter
+
+
+
