@@ -1,0 +1,319 @@
+time step, layer, countries that become infected 
+0,0,China  P.R.: Hong Kong
+0,1,China  P.R.: Hong Kong
+0,2,China  P.R.: Hong Kong
+0,3,China  P.R.: Hong Kong
+0,4,China  P.R.: Hong Kong
+0,0,China  P.R.: Mainland
+0,1,China  P.R.: Mainland
+0,2,China  P.R.: Mainland
+0,3,China  P.R.: Mainland
+0,4,China  P.R.: Mainland
+1,0,Cayman Islands
+1,0,China  P.R.: Macao
+1,0,Indonesia
+1,0,Korea  Republic of
+1,0,Liberia
+1,0,Mongolia
+1,0,Singapore
+1,0,South Africa
+1,0,Taiwan Province of China
+1,0,Thailand
+1,0,West Bank and Gaza
+1,1,Cayman Islands
+1,1,China  P.R.: Macao
+1,1,Liberia
+1,1,Samoa
+1,2,China  P.R.: Macao
+1,2,Mongolia
+1,2,Singapore
+1,3,China  P.R.: Macao
+1,3,Mongolia
+1,4,Angola
+1,4,Australia
+1,4,Brunei Darussalam
+1,4,Cambodia
+1,4,China  P.R.: Macao
+1,4,Korea  Republic of
+1,4,Malawi
+1,4,Maldives
+1,4,Mongolia
+1,4,Nepal
+1,4,Philippines
+1,4,Samoa
+1,4,Singapore
+1,4,Solomon Islands
+1,4,Sri Lanka
+1,4,Taiwan Province of China
+1,4,Thailand
+1,4,Vanuatu
+1,4,Vietnam
+2,0,Afghanistan  Islamic Republic of
+2,0,Bahamas  The
+2,0,Bangladesh
+2,0,Botswana
+2,0,British Indian Ocean Territory
+2,0,Congo  Democratic Republic of
+2,0,Dominica
+2,0,Egypt
+2,0,Fiji
+2,0,Ghana
+2,0,Greece
+2,0,Guinea
+2,0,India
+2,0,Iraq
+2,0,Japan
+2,0,Jordan
+2,0,Kenya
+2,0,Lao People's Democratic Republic
+2,0,Lesotho
+2,0,Madagascar
+2,0,Malaysia
+2,0,Mali
+2,0,Mauritius
+2,0,Monaco
+2,0,Mozambique
+2,0,Namibia
+2,0,New Zealand
+2,0,Nigeria
+2,0,Oman
+2,0,Panama
+2,0,Saudi Arabia
+2,0,Seychelles
+2,0,Sudan
+2,0,Swaziland
+2,0,Syrian Arab Republic
+2,0,Tanzania
+2,0,Uganda
+2,0,Uzbekistan
+2,0,Yemen  Republic of
+2,0,Zimbabwe
+2,4,Belize
+2,4,Bulgaria
+2,4,Fiji
+2,4,India
+2,4,Iran  Islamic Republic of
+2,4,Japan
+2,4,Korea  Democratic People's Rep. of
+2,4,Lao People's Democratic Republic
+2,4,Malaysia
+2,4,Marshall Islands  Republic of
+2,4,Mauritius
+2,4,Myanmar
+2,4,New Zealand
+2,4,Papua New Guinea
+2,4,Seychelles
+2,4,St. Vincent and the Grenadines
+2,4,Timor-Leste  Dem. Rep. of
+2,4,Tonga
+2,4,Uzbekistan
+3,0,Andorra
+3,0,Aruba
+3,0,Bahrain  Kingdom of
+3,0,Brazil
+3,0,Cameroon
+3,0,Colombia
+3,0,Costa Rica
+3,0,Cuba
+3,0,Cyprus
+3,0,Denmark
+3,0,Dominican Republic
+3,0,Guinea-Bissau
+3,0,Honduras
+3,0,Isle of Man
+3,0,Jamaica
+3,0,Kuwait
+3,0,Lebanon
+3,0,Malta
+3,0,Mauritania
+3,0,Morocco
+3,0,Nicaragua
+3,0,Pakistan
+3,0,Peru
+3,0,Rwanda
+3,0,Tajikistan
+3,0,United States
+3,0,Venezuela  Republica Bolivariana de
+3,0,Zambia
+3,1,Virgin Islands  British
+3,2,Bolivia
+3,2,Kuwait
+3,2,United States
+3,3,Peru
+3,3,Turkey
+3,3,United States
+3,4,Benin
+3,4,Central African Republic
+3,4,France
+3,4,Germany
+3,4,Niger
+3,4,United Arab Emirates
+3,4,United States
+4,0,Anguilla
+4,0,Belarus
+4,0,Canada
+4,0,Chile
+4,0,Cote d'Ivoire
+4,0,Czech Republic
+4,0,Ecuador
+4,0,Georgia
+4,0,Grenada
+4,0,Haiti
+4,0,Iceland
+4,0,Italy
+4,0,Libya
+4,0,Luxembourg
+4,0,Mexico
+4,0,Poland
+4,0,Russian Federation
+4,0,Serbia  Republic of
+4,0,Spain
+4,0,Suriname
+4,0,Switzerland
+4,0,US Virgin Islands
+4,0,Uruguay
+4,1,Albania
+4,1,Macedonia  FYR
+4,2,Albania
+4,2,Antigua and Barbuda
+4,2,Armenia  Republic of
+4,2,Azerbaijan  Republic of
+4,2,Barbados
+4,2,Bhutan
+4,2,Chile
+4,2,Congo  Republic of
+4,2,Croatia
+4,2,Curacao & St. Maarten
+4,2,El Salvador
+4,2,Ethiopia
+4,2,Gabon
+4,2,Georgia
+4,2,Gibraltar
+4,2,Grenada
+4,2,Guernsey
+4,2,Guyana
+4,2,Iceland
+4,2,Ireland
+4,2,Israel
+4,2,Kazakhstan
+4,2,Liechtenstein
+4,2,Luxembourg
+4,2,Moldova
+4,2,Netherlands
+4,2,Norway
+4,2,Portugal
+4,2,Qatar
+4,2,Russian Federation
+4,2,San Marino
+4,2,Senegal
+4,2,Slovenia
+4,2,St. Kitts and Nevis
+4,2,Sweden
+4,2,Togo
+4,2,Tunisia
+4,2,Turks and Caicos Islands
+4,2,Ukraine
+4,2,United Kingdom
+4,3,Argentina
+4,3,Chile
+4,3,Guernsey
+4,3,Iceland
+4,3,Ireland
+4,3,Israel
+4,3,Kazakhstan
+4,3,Luxembourg
+4,3,Netherlands
+4,3,Norway
+4,3,Qatar
+4,3,Sweden
+4,3,Trinidad and Tobago
+4,3,US Virgin Islands
+4,4,Algeria
+4,4,Argentina
+4,4,Azerbaijan  Republic of
+4,4,Barbados
+4,4,Belgium
+4,4,Bhutan
+4,4,Burundi
+4,4,Chad
+4,4,Croatia
+4,4,Curacao & St. Maarten
+4,4,El Salvador
+4,4,Ethiopia
+4,4,French Territories: French Polynesia
+4,4,Gabon
+4,4,Georgia
+4,4,Grenada
+4,4,Guernsey
+4,4,Guyana
+4,4,Italy
+4,4,Kazakhstan
+4,4,Liechtenstein
+4,4,Luxembourg
+4,4,Moldova
+4,4,Netherlands
+4,4,Portugal
+4,4,Qatar
+4,4,Russian Federation
+4,4,San Marino
+4,4,Senegal
+4,4,Slovak Republic
+4,4,Spain
+4,4,St. Lucia
+4,4,Switzerland
+4,4,Togo
+4,4,Tunisia
+4,4,Turks and Caicos Islands
+4,4,Ukraine
+4,4,Uruguay
+5,0,Burkina Faso
+5,0,Cabo Verde
+5,0,Estonia
+5,0,Finland
+5,0,French Territories: New Caledonia
+5,0,Gambia  The
+5,0,Hungary
+5,0,Kyrgyz Republic
+5,0,Vatican
+5,1,Austria
+5,1,Equatorial Guinea
+5,1,Greenland
+5,1,Guatemala
+5,1,Hungary
+5,1,Latvia
+5,1,Sierra Leone
+5,2,Bosnia and Herzegovina
+5,2,Estonia
+5,2,Gambia  The
+5,2,Greenland
+5,2,Hungary
+5,2,Jersey
+5,2,Kosovo  Republic of
+5,2,Latvia
+5,2,Lithuania
+5,2,Paraguay
+5,2,Puerto Rico
+5,3,Bermuda
+5,3,Estonia
+5,3,Finland
+5,3,Latvia
+5,3,Romania
+5,4,Bermuda
+5,4,Bosnia and Herzegovina
+5,4,Cabo Verde
+5,4,Djibouti
+5,4,Equatorial Guinea
+5,4,Finland
+5,4,Gambia  The
+5,4,Guatemala
+5,4,Jersey
+5,4,Kyrgyz Republic
+5,4,Paraguay
+5,4,Romania
+5,4,Sao Tome and Principe
+5,4,Vatican
+6,1,Montenegro
+6,1,Turkmenistan
+6,2,Cook Islands
+6,4,Montenegro
+7,4,US Pacific Islands

@@ -1,0 +1,12 @@
+time step, layer, countries that become infected 
+0,0,China  P.R.: Hong Kong
+0,1,China  P.R.: Hong Kong
+0,2,China  P.R.: Hong Kong
+0,3,China  P.R.: Hong Kong
+0,4,China  P.R.: Hong Kong
+1,0,China  P.R.: Mainland
+1,0,Liberia
+1,1,Liberia
+1,1,Samoa
+1,4,Mongolia
+2,0,China  P.R.: Macao

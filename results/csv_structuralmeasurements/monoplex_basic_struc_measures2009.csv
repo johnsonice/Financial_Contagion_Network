@@ -1,0 +1,7 @@
+network,diameter (unweighted-directed),density(unweighted-directed),            mean geodesic distance(unweighted-directed),             reciprocity(unweighted-directed),            global clustering(unweighted-undirected),            average clustering (unweighted-undirected),            sum of weights
+CDIS_equity,4,0.13,1.94,0.58,0.48,0.49,19353339.0
+CDIS_debt,4,0.13,2.05,0.76,0.5,0.35,7707696.0
+CPIS_equity,4,0.1,2.19,0.54,0.57,0.64,13767633.0
+CPIS_debt,4,0.12,2.1,0.56,0.57,0.64,21192710.0
+BIS,3,0.16,1.85,0.82,0.35,0.36,21920606.0
+Aggregated,3,0.26,1.75,0.76,0.57,0.39,83941984.0

@@ -1,0 +1,76 @@
+time step, layer, countries that become infected 
+0,0,China  P.R.: Hong Kong
+1,0,Angola
+1,0,Cambodia
+1,0,China  P.R.: Macao
+1,0,Liberia
+1,0,Malawi
+1,0,Maldives
+1,0,Mongolia
+1,0,Nepal
+1,0,Philippines
+1,0,Samoa
+1,0,Solomon Islands
+1,0,Sri Lanka
+1,0,Thailand
+1,0,Vanuatu
+1,0,Vietnam
+2,0,British Indian Ocean Territory
+2,0,China  P.R.: Mainland
+2,0,Myanmar
+2,0,Taiwan Province of China
+3,0,Belize
+3,0,Brunei Darussalam
+3,0,Korea  Republic of
+3,0,Marshall Islands  Republic of
+3,0,Seychelles
+3,0,Singapore
+3,0,South Africa
+3,0,St. Vincent and the Grenadines
+4,0,Congo  Democratic Republic of
+4,0,Ghana
+4,0,India
+4,0,Iran  Islamic Republic of
+4,0,Korea  Democratic People's Rep. of
+4,0,Lesotho
+4,0,Malaysia
+4,0,Mauritius
+4,0,Mozambique
+4,0,Swaziland
+4,0,Uzbekistan
+4,0,Zimbabwe
+5,0,Benin
+5,0,Botswana
+5,0,Central African Republic
+5,0,Guinea
+5,0,Indonesia
+5,0,Kenya
+5,0,Lao People's Democratic Republic
+5,0,Namibia
+5,0,Niger
+5,0,Oman
+5,0,Tanzania
+5,0,Zambia
+6,0,Australia
+6,0,Bahrain  Kingdom of
+6,0,Timor-Leste  Dem. Rep. of
+7,0,Bangladesh
+7,0,Fiji
+7,0,Iraq
+7,0,Jordan
+7,0,Kuwait
+7,0,Libya
+7,0,New Zealand
+7,0,Pakistan
+7,0,Papua New Guinea
+7,0,Saudi Arabia
+7,0,Sudan
+7,0,Syrian Arab Republic
+7,0,Tonga
+7,0,Turkey
+7,0,United Arab Emirates
+7,0,Yemen  Republic of
+8,0,Azerbaijan  Republic of
+8,0,Malta
+8,0,West Bank and Gaza
+9,0,Qatar

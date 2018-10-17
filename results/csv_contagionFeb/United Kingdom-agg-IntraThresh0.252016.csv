@@ -1,0 +1,54 @@
+time step, layer, countries that become infected 
+0,0,United Kingdom
+1,0,Afghanistan  Islamic Republic of
+1,0,Angola
+1,0,Bangladesh
+1,0,Chad
+1,0,Djibouti
+1,0,Egypt
+1,0,Gabon
+1,0,Ghana
+1,0,Guatemala
+1,0,Isle of Man
+1,0,Jersey
+1,0,Kenya
+1,0,Kyrgyz Republic
+1,0,Libya
+1,0,Malawi
+1,0,Nigeria
+1,0,Qatar
+1,0,Rwanda
+1,0,Sierra Leone
+1,0,St. Lucia
+1,0,US Pacific Islands
+1,0,Uganda
+1,0,Zambia
+2,0,Botswana
+2,0,Guernsey
+2,0,Guyana
+2,0,Iraq
+2,0,Pakistan
+2,0,Saudi Arabia
+2,0,South Africa
+2,0,Sri Lanka
+2,0,Tanzania
+2,0,Yemen  Republic of
+3,0,Bahrain  Kingdom of
+3,0,Congo  Democratic Republic of
+3,0,Guinea
+3,0,Kuwait
+3,0,Lesotho
+3,0,Mozambique
+3,0,Namibia
+3,0,Swaziland
+3,0,Zimbabwe
+4,0,Iran  Islamic Republic of
+4,0,Jordan
+4,0,Lebanon
+4,0,Sudan
+4,0,Syrian Arab Republic
+4,0,Turkey
+5,0,Azerbaijan  Republic of
+5,0,Malta
+5,0,West Bank and Gaza
+6,0,Greece

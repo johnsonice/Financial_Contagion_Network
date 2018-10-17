@@ -1,0 +1,27 @@
+time step, layer, countries that become infected 
+0,0,Netherlands
+0,1,Netherlands
+0,2,Netherlands
+0,3,Netherlands
+0,4,Netherlands
+1,0,Czech Republic
+1,0,Israel
+1,0,Kazakhstan
+1,0,Portugal
+1,0,Turkey
+1,1,Gibraltar
+2,0,Angola
+2,0,Azerbaijan  Republic of
+2,0,Georgia
+2,0,Slovak Republic
+3,1,Kosovo  Republic of
+3,1,Kyrgyz Republic
+3,1,Montenegro
+3,2,Montenegro
+3,3,Guatemala
+3,3,Malta
+3,3,Mongolia
+3,4,Cabo Verde
+3,4,Sao Tome and Principe
+3,4,Timor-Leste  Dem. Rep. of
+5,0,Albania

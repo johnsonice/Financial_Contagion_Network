@@ -1,0 +1,43 @@
+time step, layer, countries that become infected 
+0,0,France
+0,1,France
+0,2,France
+0,3,France
+0,4,France
+1,0,Gabon
+1,0,Mali
+1,0,Togo
+1,1,Algeria
+1,1,Angola
+1,1,Benin
+1,1,Burkina Faso
+1,1,Cameroon
+1,1,Central African Republic
+1,1,Equatorial Guinea
+1,1,French Territories: French Polynesia
+1,1,Gabon
+1,1,Guinea
+1,1,Iran  Islamic Republic of
+1,1,Lebanon
+1,1,Madagascar
+1,1,Mali
+1,1,Myanmar
+1,1,Niger
+1,1,Qatar
+1,1,Senegal
+1,1,Sierra Leone
+1,1,Yemen  Republic of
+1,4,Cameroon
+1,4,Chad
+1,4,Congo  Republic of
+1,4,Cote d'Ivoire
+1,4,Djibouti
+1,4,French Territories: French Polynesia
+1,4,Madagascar
+1,4,Mauritania
+1,4,Niger
+1,4,Senegal
+1,4,Togo
+2,1,French Territories: New Caledonia
+2,1,Morocco
+2,4,French Territories: New Caledonia

@@ -1,0 +1,16 @@
+time step, layer, countries that become infected 
+0,0,China  P.R.: Mainland
+1,0,China  P.R.: Hong Kong
+2,0,Cambodia
+2,0,China  P.R.: Macao
+2,0,Liberia
+2,0,Maldives
+2,0,Mongolia
+2,0,Nepal
+2,0,Taiwan Province of China
+2,0,Vanuatu
+3,0,Angola
+3,0,Belize
+3,0,Samoa
+3,0,Seychelles
+3,0,Vietnam
