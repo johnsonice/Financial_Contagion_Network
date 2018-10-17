@@ -13,7 +13,6 @@ pip install -r requirements.txt
 
 ### Results
 ![alt text](./src/figure1.PNG)
-![alt text](./src/figure1.PNG)
 ![alt text](./src/figure4.PNG)
 ![alt text](./src/figure5.PNG)
 ![alt text](./src/figure6.PNG)
