@@ -14,7 +14,7 @@ def make_initial_states(seed_names=None, names=None, seed_nodes=None, \
     seed_layers(list): if not none should be a list of layers of seed node
     """
     assert (seed_names is None or seed_nodes is None)
-    # makign the seed node list if not given
+    # making the seed node list if not given
     if seed_nodes == None:
         seed_nodes = [names.index(i) for i in seed_names]
     if seed_layers==None:
@@ -45,17 +45,8 @@ def default_horizontal(c, l, defaulted_assets, instrength_layer_list, tau_hor):
         return False
 
     elif defaulted_assets[c] / instrength_layer_list[c, l] > tau_hor[c]:
-        # if c == 177:
-        #     print("def fraction", defaulted_assets[c] / instrength_layer_list[c, l])
-        #     print("def ", defaulted_assets[c] )
-        #     print("threshold ",  tau_hor[c])
         return True
     else:
-
-        # if c == 177:
-        #     print("def fraction", defaulted_assets[c] / instrength_layer_list[c, l])
-        #     print("def ", defaulted_assets[c] )
-        #     print("threshold ",  tau_hor[c])
         return False
 
 
@@ -101,16 +92,10 @@ def default_horizontal_homogenous(c, l, defaulted_assets, instrength_layer_list,
         return False
 
     elif defaulted_assets[c] / instrength_layer_list[c, l] > tau_hor:
-        # if c == 177:
-        #     print("def fraction", defaulted_assets[c] / instrength_layer_list[c, l])
-        #     print("def ", defaulted_assets[c] )
-        #     print("threshold ",  tau_hor)
+
         return True
     else:
-        # if c == 177:
-        #     print("def fraction", defaulted_assets[c] / instrength_layer_list[c, l])
-        #     print("def ", defaulted_assets[c] )
-        #     print("threshold ",  tau_hor)
+
         return False
 
 
@@ -128,7 +113,10 @@ def default_vertical_homogenous(c, l, defaulted_assets, instrength_layer_list, t
     if type_ver == "layer":
         if instrength_layer_list[c, l] == 0:
             # print("no indegree")
-            return False
+            if defaulted_assets[c] > 0:
+                return True
+            else:
+                return False
         elif defaulted_assets[c] / instrength_layer_list[c, l] > tau_ver:
             return True
         else:
@@ -136,7 +124,10 @@ def default_vertical_homogenous(c, l, defaulted_assets, instrength_layer_list, t
     if type_ver == "global":
         if instrength_layer_list[c, l] == 0:
             # print("no indegree")
-            return False
+            if defaulted_assets[c] > 0:
+                return True
+            else:
+                return False
         elif defaulted_assets[c] / sum(instrength_layer_list[c, :]) > tau_ver:
             return True
         else:
@@ -203,18 +194,10 @@ def one_step_contagion(n_layers, states, t, defaulted_assets_hor, defaulted_asse
             # variable that checks if contagion is both hor and ver
             mix = 0
             # check condition for horizontal contagion
-            if solvent == 177:
-                print("Sudan defualt")
-                print(default_hor(solvent, l, defaulted_assets_hor[:, l], instregth, tau_hor))
-                #print("threhold = ", tau_hor)
-            if solvent == 181:
-                    print("Switz defualt")
-                    print(default_hor(solvent, l, defaulted_assets_hor[:, l], instregth, tau_hor))
-                    #print("threhold = ", tau_hor)
-
 
             if default_hor(solvent, l, defaulted_assets_hor[:, l], instregth, tau_hor):
                 # if default, update status and add to hor and mix count
+                # print("horizontal contagion ", solvent, "lay ", l)
                 states[solvent, l] = 1
                 hor_contagion[t] += 1
                 mix += 0.5
@@ -222,8 +205,13 @@ def one_step_contagion(n_layers, states, t, defaulted_assets_hor, defaulted_asse
                     add_to_csv(f, t, solvent, l, "horizontal", \
                                 country_names=country_names)
 
+
             if default_ver(solvent, l, defaulted_assets_ver, instregth, tau_ver, type_ver):
                 # if default, update status and add to ver count
+                # print("vertical contagion ", solvent, "lay ", l)
+                # print("solvent node ", solvent, "lay ", l)
+                # print("def assets ", defaulted_assets_ver[solvent])
+                # print("in str ", instregth[solvent, l])
                 states[solvent, l] = 1
                 ver_contagion[t] += 1
                 mix += 0.5
@@ -308,10 +296,6 @@ def run_contagion(A_list, C, states_original, default_hor, default_ver, tau_hor,
         # NOTE "self-loop" is considered but since if s=1, it is already
         # defaulted we don't care. also same as C_array.dot(states[0,:])
 
-        print("defaulted horizontal assests of switzerland")
-        print(defaulted_assets_hor[181])
-        print("defaulted horizontal assests of sudan")
-        print(defaulted_assets_hor[177])
         # run contagion for one time step
         states, hor_contagion, ver_contagion, mix_contagion = \
         one_step_contagion(n_layers, states, t, defaulted_assets_hor,\
@@ -323,9 +307,11 @@ def run_contagion(A_list, C, states_original, default_hor, default_ver, tau_hor,
         state_history[t, :, :] = copy.deepcopy(states)
 
         # if nothing happend in two time steps, then break
-        if ver_contagion[t - 2] == ver_contagion[t] and \
-            hor_contagion[t - 2]  == hor_contagion[t]:
+        if ver_contagion[t - 2] == ver_contagion[t] == 0 and \
+            hor_contagion[t - 2]  == hor_contagion[t] == 0:
             t_end = t
+            # print("break happened ")
+            # print(hor_contagion[t - 2], " ",  hor_contagion[t])
             break
 
     if save_csv == True:
